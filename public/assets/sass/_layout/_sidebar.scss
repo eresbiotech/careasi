@@ -1,0 +1,50 @@
+.knowledge-widget {
+    border-radius: 10px;      
+    background: $white-color;
+    padding: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    @media screen and (max-width:399px) {
+        padding: 30px 15px;
+    }
+    .author {
+        @extend %flex;
+        align-items: center;
+        .author-thumb {
+            width: 73px;
+            height: 73px;
+            @include border-radius(50%);
+            overflow: hidden;
+            a {
+                display: block;
+            }
+            img {
+                width: 100%;
+            }
+        }
+        .author-content {
+            width: calc(100% - 73px);
+            padding-left: 30px;
+            .subtitle {
+                margin: 0;
+            }
+        }
+    }
+    .call-to-page {
+        .title {
+            margin: 0;
+            margin-bottom: 40px;
+        }
+        p {
+            margin-bottom: 36px;
+        }
+        @include breakpoint(max-sm) {
+            .title {
+                margin-bottom: 30px;
+            }
+            p {
+                margin-bottom: 26px;
+            }
+        }
+    }
+}

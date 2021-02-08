@@ -1,0 +1,261 @@
+/*Banner One*/
+.banner-1 {
+    padding: 235px 0 240px;
+    @include breakpoint(max-xl) {
+        padding: 185px 0 200px;
+    }
+    @include breakpoint(max-sm) {
+        padding: 155px 0 170px;
+    }
+}
+.banner-content {
+    .title {
+        font-size: 60px;
+        line-height: 90px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+    p {
+        font-size: 24px;
+    }
+    @include breakpoint(max-md) {
+        .title {
+            font-size: 50px;
+            line-height: 70px;
+            margin-bottom: 15px;
+        }
+    }
+    @include breakpoint(max-sm) {
+        .title {
+            font-size: 40px;
+            line-height: 50px;
+            margin-bottom: 35px;
+        }
+        p {
+            font-size: 22px;
+
+        }
+    }
+}
+/*Banner Two*/
+.banner-2 {
+    padding: 175px 0 180px;
+    @include breakpoint(max-sm) {
+        padding: 155px 0 170px;
+    }
+}
+.banner-content-2 {
+    max-width: 730px;
+    margin: 0 auto;
+    text-align: center;
+    .title {
+        font-size: 60px;
+        line-height: 90px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+    p {
+        font-size: 24px;
+        margin-bottom: 38px;
+    }
+    @include breakpoint(max-md) {
+        .title {
+            font-size: 50px;
+            line-height: 70px;
+            margin-bottom: 15px;
+        }
+    }
+    @include breakpoint(max-sm) {
+        .title {
+            font-size: 40px;
+            line-height: 50px;
+            margin-bottom: 35px;
+        }
+        p {
+            font-size: 22px;
+            margin-bottom: 32px;
+        }
+    }
+}
+/*Banner Three*/
+.banner-3 {
+    padding: 255px 0 220px;
+    @include breakpoint(max-xl) {
+        padding: 205px 0 180px;
+    }
+    @include breakpoint(max-sm) {
+        padding: 175px 0 150px;
+    }
+}
+/*Banner Six*/
+.banner-6 {
+    padding: 253px 0 255px;
+    @include breakpoint(max-xl) {
+        padding: 200px 0 250px;
+    }
+    @include breakpoint(max-sm) {
+        padding: 175px 0 230px;
+    }
+}
+
+
+
+/*Hero Section Starts Here*/
+.hero-section {
+    padding: 131px 0 81px;
+    position: relative;
+    overflow: hidden;
+    &.style-two {
+        padding: 185px 0 218px;
+        @include breakpoint(max-md) {
+            padding: 155px 0 218px;
+        }
+        @include breakpoint(max-sm) {
+            padding: 150px 0 218px;
+        }
+    }
+    &.style-three {
+        padding: 195px 0 208px;
+        @include breakpoint(max-md) {
+            padding: 165px 0 208px;
+        }
+        @include breakpoint(max-sm) {
+            padding: 160px 0 208px;
+        }
+    }
+    &.clean-header {
+        padding: 150px 0 81px;
+    }
+    &.about-style {
+        padding: 255px 0 180px;
+        @include breakpoint(max-xl) {
+            padding: 190px 0 180px;
+        }
+        @include breakpoint(max-lg) {
+            padding: 170px 0 160px;
+        }
+        @include breakpoint(max-md) {
+            padding: 170px 0 140px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+}
+.bottom-shape {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    @include transform(translateX(-50%));
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+.breadcrumb {
+    background: transparent;
+    li {
+        padding: 0;
+        margin-bottom: 10px;
+        a {
+            font-size: 18px;
+            &::after {
+                content: "\f100";
+                font-weight: 600;
+                font-family: "Flaticon";
+                font-size: 14px;
+                display: inline-block;
+                margin: 0 8px;
+            }
+        }
+    }
+}
+.cate-header {
+    font-size: 18px;
+    .cate-title {
+        font-size: 70px;
+        line-height: 80px;
+        margin-bottom: 22px;
+        @include breakpoint(max-lg) {
+            font-size: 50px;
+            line-height: 60px;
+        }
+        @include breakpoint(max-md) {
+            font-size: 40px;
+            line-height: 50px;
+        }
+    }
+    .cate-meta {
+        @extend %flex;
+        justify-content: space-between;
+        .update-button {
+            background: $white-color;
+        }
+        .left {
+            @extend %flex;
+            align-items: center;
+            span {
+                font-size: 18px;
+                color: #aea3f1;
+                padding: 5px;
+            }
+            .thumb {
+                width: 40px;
+                height: 40px;
+                @include border-radius(50%);
+                overflow: hidden;
+                margin: 0px 8px;
+                a {
+                    display: block;
+                }
+                img {
+                    width: 100%;
+                }
+            }
+            .subtitle {
+                margin: 0;
+                padding: 5px;
+                font-size: 22px;
+                font-weight: 500;
+                a {
+                    color: $white-color;
+                }
+            }
+        }
+        .right {
+            margin: 5px;
+            i {
+                margin-right: 8px;
+            }
+            span {
+                font-size: 18px;
+            }
+        }
+        @include breakpoint(max-sm) {
+            .left {
+                span {
+                    font-size: 14px;
+                }
+                .subtitle {
+                    font-size: 18px;
+                }
+            }
+            .right {
+                span {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+.hero-content {
+    .title {
+        margin-bottom: 20px;
+        @include breakpoint(md) {
+            font-size: 70px;
+            line-height: 80px;
+            margin-bottom: 15px;
+        }
+    }
+}
