@@ -250,7 +250,6 @@ function App() {
     ViewEf(jQuery);
     return (
         <div>
-            <BannerSection/>
             <QuestionsSection/>
         </div>
     );
