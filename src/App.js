@@ -2,6 +2,39 @@ import './App.css';
 import banner1 from './images/banner/banner-1.jpg';
 import jQuery from 'jquery';
 import {useState} from 'react';
+import ReactGA from 'react-ga';
+let trackingID = "UA-116566614-6";
+let createUUID = () =>{
+    // http://www.ietf.org/rfc/rfc4122.txt
+    var s = [];
+    var hexDigits = "0123456789abcdef";
+    for (var i = 0; i < 36; i++) {
+        s[i] = hexDigits.substr(Math.floor(Math.random() * 0x10), 1);
+    }
+    s[14] = "4";
+    s[19] = hexDigits.substr((s[19] & 0x3) | 0x8, 1);
+    s[8] = s[13] = s[18] = s[23] = "-";
+
+    var uuid = s.join("");
+    return uuid;
+}
+
+let generateAndStoreUserID = ()=>{
+    let userID = localStorage.getItem('userid');
+    if(userID !==null ){
+        return userID;
+    }
+    userID = createUUID();
+    localStorage.setItem('userid',userID);
+    return userID;
+}
+
+ReactGA.initialize(trackingID,{debug:false});
+ReactGA.set({
+    userId: generateAndStoreUserID()
+});
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 
 function ViewEf($) {
     "user strict";
@@ -153,24 +186,33 @@ const questionWorkFlow=[
     }
 ];
 const questionHandler = (setQuestions,setTitle)=>{
-    return (question)=>{
-        return ()=>{
-            if(typeof question.child !== "undefined") {
-                setTitle(question.label);
-                setQuestions(Object.values(question.child));
+        return (question)=>{
+            return ()=>{
+                ReactGA.event({
+                    category: "Question",
+                    action: (question.choice?question.choice:"") + " " + question.label
+                });
+                if(typeof question.child !== "undefined") {
+                    setTitle(question.label);
+                    setQuestions(Object.values(question.child));
+                }
             }
         }
     }
-}
+
 const linksHandler = (setQuestions,setLinks,setTitle)=>{
-    return (question)=>{
-        return ()=> {
-            setTitle(question.label);
-            setQuestions([]); 
-            setLinks(links[question.category]);
+        return (question)=>{
+            return ()=> {
+                ReactGA.event({
+                    category:"Question Links",
+                    action: (question.choice?question.choice:"") + " " + question.label
+                });
+                setTitle(question.label);
+                setQuestions([]); 
+                setLinks(links[question.category]);
+            }
         }
     }
-}
 
 function QuestionsSection() {
     const [questions,setQuestions] = useState(questionWorkFlow);
@@ -190,7 +232,7 @@ function QuestionsSection() {
                 <div className="how-search-wrapper">
                     <div className="row mb-30-none justify-content-center">
                         {questions.map(question=>{ return ( 
-                            <div className="col-sm-10 col-md-6 col-lg-4" onClick={typeof question.category == "undefined" ? questionHandler(setQuestions,setTitle)(question) : linksHandler(setQuestions,setLinks,setTitle)(question)}>
+                            <div className="col-sm-10 col-md-6 col-lg-4" onClick={typeof question.category == "undefined" ? questionHandler(setQuestions,setTitle)(question) : linksHandler(setQuestions,setLinks,setTitle)(question)} key={"question"+question.label}>
                             <div className="how-search-item">
                                 <div className="thumb">
                                     <img src={"./assets/images/"+question.icon} alt={question.label}/>
@@ -214,7 +256,7 @@ function LinksSection({links}) {
     return     <div className="billing-section padding-bottom" style={{marginTop: "-83px"}}>
         <div className="container">
             {links.map(link=>{ return (
-            <div className="row justify-content-center">
+            <div className="row justify-content-center" key={"link"+link.label}>
                 <div className="col-12">
                     <div className="bill-item">
                         <div className="bill-thumb">
@@ -222,7 +264,12 @@ function LinksSection({links}) {
                         </div>
                         <div className="bill-content">
                             <h3 className="title">
-                            <a rel="noreferrer" href={link.link} target="_blank">{link.label}</a>
+                                <ReactGA.OutboundLink
+                                    eventLabel={link.label}
+                                    to={link.link}
+                                    target="_blank">
+                                    {link.label}
+                                </ReactGA.OutboundLink>
                             </h3>
                         </div>
                     </div>
