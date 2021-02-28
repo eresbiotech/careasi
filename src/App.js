@@ -94,125 +94,254 @@ const links = {
     "a":[
         {
             type: "official",
-            link: "https://covid19asi.saglik.gov.tr/TR-77707/asi-uygulanacak-grup-siralamasi.html",
-            label: "Asi oncelik grup siralamasi"
+            link: "http://web.archive.org/web/20210219113754/https://covid19asi.saglik.gov.tr/TR-77707/asi-uygulanacak-grup-siralamasi.html",
+            label: "Aşı grubu öncelik sıralaması",
+            original_link: "https://covid19asi.saglik.gov.tr/TR-77707/asi-uygulanacak-grup-siralamasi.html"
         }
     ],
     "b":[
         {
             type: "science-article",
-            link: "https://dergipark.org.tr/en/download/article-file/833900",
-            label: "AŞI KARŞITLIĞI: AŞI KARARSIZLIĞI VE AŞI REDDİ"
+            link: "http://web.archive.org/web/20201227070110/https://dergipark.org.tr/en/download/article-file/833900",
+            label: "AŞI KARŞITLIĞI: AŞI KARARSIZLIĞI VE AŞI REDDİ",
+            original_link: "https://dergipark.org.tr/en/download/article-file/833900"
         },
         {
             type: "news",
-            link: "https://www.sozcu.com.tr/2020/saglik/asi-gonullusu-profesor-asiyla-ilgili-sosyal-medyada-yazilanlara-inanamiyorum-6181051/",
-            label: "Aşı gönüllüsü Profesör Ünal: Sosyal medyada yazılanlara inanamıyorum"
+            link: "http://web.archive.org/web/20210102112839/https://www.sozcu.com.tr/2020/saglik/asi-gonullusu-profesor-asiyla-ilgili-sosyal-medyada-yazilanlara-inanamiyorum-6181051/",
+            label: "Aşı gönüllüsü Profesör Ünal: Sosyal medyada yazılanlara inanamıyorum",
+            original_link: "https://www.sozcu.com.tr/2020/saglik/asi-gonullusu-profesor-asiyla-ilgili-sosyal-medyada-yazilanlara-inanamiyorum-6181051/"
         },
         {
             type: "science-article",
-            link: "https://www.journalagent.com/cocuk/pdfs/CD_16_1_16_24.pdf",
-            label: "Aşı Kabulünü Etkileyen Faktörler"
+            link: "http://web.archive.org/web/20190429232336/https://www.journalagent.com/cocuk/pdfs/CD_16_1_16_24.pdf",
+            label: "Aşı Kabulünü Etkileyen Faktörler",
+            original_link: "https://www.journalagent.com/cocuk/pdfs/CD_16_1_16_24.pdf"
+        },
+        {
+            type: "official",
+            link: "http://web.archive.org/web/20201202113920/https://asi.saglik.gov.tr/asi-gercekleri",
+            label: "Aşı hakkında yanlış bilinen gerçekler.",
+            original_link: "https://asi.saglik.gov.tr/asi-gercekleri"
+        },
+        {
+            type: "popular-science-news",
+            original_link: "https://sarkac.org/2018/10/neden-asi-olmaliyiz/",
+            label: "Neden aşı olmalıyız?",
+            link: "http://web.archive.org/web/20200721103556/https://sarkac.org/2018/10/neden-asi-olmaliyiz/"
+        },
+        {
+            type: "video",
+            original_link: "https://www.youtube.com/watch?v=hrmj49jv3Hw&ab_channel=GaziTv",
+            label: "Aşı Karşıtlığı Videosu",
+            link: "https://www.youtube.com/watch?v=hrmj49jv3Hw&ab_channel=GaziTv"
+        },
+        {
+            type: "video",
+            link: "https://www.youtube.com/watch?v=Q9EBxxhn3IU&ab_channel=GZT",
+            original_link: "https://www.youtube.com/watch?v=Q9EBxxhn3IU&ab_channel=GZT",
+            label: "Tarihte ilk aşı karşıklığı nasıl başladı?"
+        },
+        {
+            type: "documentary",
+            link: "https://www.youtube.com/watch?v=Al5OE6mN7z4&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
+            original_link: "https://www.youtube.com/watch?v=Al5OE6mN7z4&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
+            label: "Aşı Belgeseli 1. Bölüm"
+        },
+        {
+            type: "documentary",
+            link: "https://www.youtube.com/watch?v=vNVcpCvF9-4&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
+            original_link: "https://www.youtube.com/watch?v=vNVcpCvF9-4&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
+            label: "Aşı Belgeseli 2. Bölüm"
+        },
+        {
+            type: "documentary",
+            link: "https://www.youtube.com/watch?v=EQCGMyss4w8&t=0s&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
+            original_link: "https://www.youtube.com/watch?v=EQCGMyss4w8&t=0s&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
+            label: "Aşı Belgeseli 3. Bölüm"
         }
     ],
-    "c":[],
-    "d":[],
-    "e":[]
+    "c":[
+        {
+            type: "official",
+            original_link: "https://asi.saglik.gov.tr/asi-gercekleri",
+            label: "Aşı hakkında yanlış bilinen gerçekler.",
+            link: 'http://web.archive.org/web/20201202113920/https://asi.saglik.gov.tr/asi-gercekleri'
+        },
+        {
+            type: "documentary",
+            link: "https://www.youtube.com/watch?v=Al5OE6mN7z4&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
+            original_link: "https://www.youtube.com/watch?v=Al5OE6mN7z4&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
+            label: "Aşı Belgeseli 1. Bölüm"
+        },
+        {
+            type: "documentary",
+            link: "https://www.youtube.com/watch?v=vNVcpCvF9-4&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
+            original_link: "https://www.youtube.com/watch?v=vNVcpCvF9-4&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
+            label: "Aşı Belgeseli 2. Bölüm"
+        },
+        {
+            type: "documentary",
+            link: "https://www.youtube.com/watch?v=EQCGMyss4w8&t=0s&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
+            original_link: "https://www.youtube.com/watch?v=EQCGMyss4w8&t=0s&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
+            label: "Aşı Belgeseli 3. Bölüm"
+        },
+        {
+            type: "official",
+            original_link: "https://covid19asi.saglik.gov.tr/TR-77715/covid-19-asisi-sonrasi-yan-etkiler.html",
+            link: "http://web.archive.org/web/20210203084757/https://covid19asi.saglik.gov.tr/TR-77715/covid-19-asisi-sonrasi-yan-etkiler.html",
+            label: "Covid-19 aşısı sonrası yan etkiler"
+        },
+        {
+            type: "news",
+            original_link: "https://www.bbc.com/turkce/haberler-dunya-55254195",
+            label: "Covid için geliştirilen aşılar ne kadar güvenli?",
+            link: "http://web.archive.org/web/20210115173402/https://www.bbc.com/turkce/haberler-dunya-55254195"
+        }
+    ],
+    "d":[
+        {
+            type: "news",
+            link: "http://web.archive.org/web/20210115173402/https://www.bbc.com/turkce/haberler-dunya-55254195",
+            original_link: "https://www.bbc.com/turkce/haberler-dunya-55254195",
+            label: "Covid için geliştirilen aşılar ne kadar güvenli?"
+        }
+    ],
+    "e":[
+        {
+            type: "official",
+            original_link: "https://asi.saglik.gov.tr/asi-gercekleri",
+            label: "Aşı hakkında yanlış bilinen gerçekler.",
+            link: "http://web.archive.org/web/20201202113920/https://asi.saglik.gov.tr/asi-gercekleri",
+        },
+                {
+            type: "documentary",
+            link: "https://www.youtube.com/watch?v=EQCGMyss4w8&t=0s&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
+            original_link: "https://www.youtube.com/watch?v=EQCGMyss4w8&t=0s&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
+            label: "Aşı Belgeseli 3. Bölüm"
+        },
+        {
+            type: "video",
+            link: "https://www.youtube.com/watch?v=EJJ1QicWQhk&ab_channel=NP%C4%B0STANBULBeyinHastanesi",
+            original_link: "https://www.youtube.com/watch?v=EJJ1QicWQhk&ab_channel=NP%C4%B0STANBULBeyinHastanesi",
+            label: "Covid-19 aşısı hakkında bilgiler"
+        }
+    ]
 };
 const suspectedQuestions = [
     {
-        choice: "Kişisel Haklar",
+        choice: "Aşıların otizm yaptığını düşünüyorum.",
         label: "",
-        icon: "suspect.svg",
-        child: [
-            {
-                label: "Aşı karşıtlığı neden zararlı?",
-                category: "b"
-            },
-            {
-                label: "Aşının yararları",
-                category: "b"
-            }
-        ]
+        categories: ["c"]
     },
     {
-        choice: "Yan etkiler",
-        label: "Otoimmün, alüminyum, domuz jelatini, formaldehitin, kısırlık vb.",
-        icon:"suspect.svg",
-        child: [
-            {
-                label: "Aşının kimyasal içerikleri nedir?",
-                category: "c",
-                icon: "suspect.svg"
-            },
-            {
-                label: "Aşı ve Otizm ilişkisi",
-                icon: "suspect.svg",
-                category: "c"
-            }
-        ]
+        choice: "Aşı içinde çip olduğunu düşünüyorum.",
+        label: "",
+        categories: ["d"]
+    },
+    {
+        choice: "Aşının yeterli Faz 3 çalışması yok.",
+        label: "",
+        categories: ["e"]
+    },
+    {
+        choice: "İtalyan doktor bu aşının faydasız olduğunu söyledi.",
+        categories: ["e"]
+    },
+    {
+        choice: "Aşı otoimmun hastalıklara sebep olduğunu düşünüyorum.",
+        categories: ["c"]
+    },
+    {
+        choice: "Aşıda civa kullanıldığını düşünüyorum.",
+        categories: ["c"]
+    },
+    {
+        choice: "Aşıların içinde alüminyum bileşikleri olduğunu düşünüyorum.",
+        categories: ["c"]
+    },
+    {
+        choice: "Aşılarda domuz jelatini olduğunu düşünüyorum.",
+        categories: ["c"]
+    },
+    {
+        choice: "Aşıda formaldehitin olduğunu düşünüyorum.",
+        categories: ["c"]
+    },
+    {
+        choice: "Aşıların kısırlık yaptığını düşünüyorum.",
+        categories: ["c"]
+    },
+    {
+        choice: "Aşıların ilaç firmalarının yalanı olduğunu düşünüyorum.",
+        categories: ["c"]
+    }
+];
+const negativeSuspectedQuestions=[
+    {
+        choice: "Aşının küresel güç odaklarının aldatmacası olduğunu düşünüyorum",
+        categories: ["d"]
+    },
+    {
+        choice: "Covid diye bir hastalık olduğunu düşünmüyorum, aşısı da yok bence.",
+        categories: ["d"]
+    },
+    {
+        choice: "Aşı yaptırmamanın kişisel bir hak olduğunu düşünüyorum.",
+        categories: ["b"]
     }
 ];
 
 const questionWorkFlow=[
     {
         choice: "Evet",
-        label: "Ancak bazı sorularım var",
-        icon: "suspect.svg",
-        child: [
-            {
-                label: "Aşı ne zaman gelecek?",
-                icon: "suspect.svg",
-                category: "a"
-            },
-            {  
-                label: "Önce kimler aşılanacak?",
-                icon: "suspect.svg",
-                category: "a"
-            }
-        ]
+        label: "Hiç tereddütüm yok.",
+        icon: "yes-icon.svg",
+        categories: ["a"]
     },
     {
         choice: "Evet",
-        label: "Hiç tereddütüm yok.",
-        icon: "yes-icon.svg",
+        label: "Ancak bazı sorularım var.",
+        icon: "suspect.svg",
         child: suspectedQuestions
     },
     {
         choice: "Hayır",
         label: "Ancak bazı sorularım var.",
         icon: "denial.svg",
-        child: suspectedQuestions
+        child: suspectedQuestions.concat(negativeSuspectedQuestions)
     }
 ];
 const questionHandler = (setQuestions,setTitle)=>{
-        return (question)=>{
-            return ()=>{
-                ReactGA.event({
-                    category: "Question",
-                    action: (question.choice?question.choice:"") + " " + question.label
-                });
-                if(typeof question.child !== "undefined") {
-                    setTitle(question.label);
-                    setQuestions(Object.values(question.child));
-                }
+    return (question)=>{
+        return ()=>{
+            ReactGA.event({
+                category: "Question",
+                action: (question.choice?question.choice:"") + " " + question.label
+            });
+            if(typeof question.child !== "undefined") {
+                setTitle(question.label?question.label:question.choice);
+                setQuestions(Object.values(question.child));
             }
         }
     }
+}
 
 const linksHandler = (setQuestions,setLinks,setTitle)=>{
-        return (question)=>{
-            return ()=> {
-                ReactGA.event({
-                    category:"Question Links",
-                    action: (question.choice?question.choice:"") + " " + question.label
-                });
-                setTitle(question.label);
-                setQuestions([]); 
-                setLinks(links[question.category]);
-            }
+    return (question)=>{
+        return ()=> {
+            ReactGA.event({
+                category:"Question Links",
+                action: (question.choice?question.choice:"") + " " + question.label
+            });
+            let concatinatedLinks = [];
+            concatinatedLinks = question.categories.map(c=>links[c]).reduce((acc,cur)=>acc.concat(cur),[]);
+            setTitle(question.label?question.label:question.choice);
+            setQuestions([]); 
+            setLinks(concatinatedLinks);
         }
     }
+}
 
 function QuestionsSection() {
     const [questions,setQuestions] = useState(questionWorkFlow);
@@ -226,28 +355,30 @@ function QuestionsSection() {
     }
     return (
         <>
-        <BannerSection title={title}/>
-        <div className="how-search-section padding-bottom mt--83">
-            <div className="container">
-                <div className="how-search-wrapper">
-                    <div className="row mb-30-none justify-content-center">
-                        {questions.map(question=>{ return ( 
-                            <div className="col-sm-10 col-md-6 col-lg-4" onClick={typeof question.category == "undefined" ? questionHandler(setQuestions,setTitle)(question) : linksHandler(setQuestions,setLinks,setTitle)(question)} key={"question"+question.label}>
-                            <div className="how-search-item">
-                                <div className="thumb">
-                                    <img src={"./assets/images/"+question.icon} alt={question.label}/>
-                                </div>
-                                <div className="content">
-                                    <h4 className="title"><a href="#0">{question.choice}</a></h4>
-                                    <p>{question.label}</p>
-                                </div>
-                            </div>
-                        </div>);
-                        })}
+            <BannerSection title={title}/>
+            <div className="how-search-section padding-bottom mt--83">
+                <div className="container">
+                    <div className="how-search-wrapper">
+                        <div className="row mb-30-none justify-content-center">
+                            {questions.map(question=>{ return ( 
+                                <div className="col-sm-10 col-md-6 col-lg-4" onClick={typeof question.categories == "undefined" ? questionHandler(setQuestions,setTitle)(question) : linksHandler(setQuestions,setLinks,setTitle)(question)} key={"question"+question.label+question.choice}>
+                                    <div className="how-search-item">
+                                        {question.icon &&
+                                        <div className="thumb">
+                                            <img src={"./assets/images/"+question.icon} alt={question.label}/>
+                                        </div>
+                                        }
+                                        <div className="content">
+                                            <h4 className="title"><a href="#0">{question.choice}</a></h4>
+                                            <p>{question.label}</p>
+                                        </div>
+                                    </div>
+                                </div>);
+                            })}
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </>
     );
 };
@@ -256,25 +387,27 @@ function LinksSection({links}) {
     return     <div className="billing-section padding-bottom" style={{marginTop: "-83px"}}>
         <div className="container">
             {links.map(link=>{ return (
-            <div className="row justify-content-center" key={"link"+link.label}>
-                <div className="col-12">
-                    <div className="bill-item">
-                        <div className="bill-thumb">
-                            <img src={"./assets/images/screen-shots/"+link.screen_shot} alt={link.label + " ekran görüntüsü"}/>
-                        </div>
-                        <div className="bill-content">
-                            <h3 className="title">
-                                <ReactGA.OutboundLink
-                                    eventLabel={link.label}
-                                    to={link.link}
-                                    target="_blank">
-                                    {link.label}
-                                </ReactGA.OutboundLink>
-                            </h3>
+                <div className="row justify-content-center" key={"link"+link.label}>
+                    <div className="col-12">
+                        <div className="bill-item">
+                            {link.screen_shot &&
+                            <div className="bill-thumb">
+                                <img src={"./assets/images/screen-shots/"+link.screen_shot} alt={link.label + " ekran görüntüsü"}/>
+                            </div>
+                            }
+                            <div className="bill-content">
+                                <h3 className="title">
+                                    <ReactGA.OutboundLink
+                                        eventLabel={link.label}
+                                        to={link.link}
+                                        target="_blank">
+                                        {link.label}
+                                    </ReactGA.OutboundLink>
+                                </h3>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>); }
+                </div>); }
             )}
         </div>
     </div>
