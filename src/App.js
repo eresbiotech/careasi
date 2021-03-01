@@ -132,7 +132,7 @@ const links = {
         {
             type: "video",
             link: "https://www.youtube.com/watch?v=Q9EBxxhn3IU&ab_channel=GZT",
-            label: "Tarihte ilk aşı karşıklığı nasıl başladı?"
+            label: "Tarihte ilk aşı karşıtlığı nasıl başladı?"
         },
         {
             type: "documentary",
