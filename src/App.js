@@ -94,136 +94,115 @@ const links = {
     "a":[
         {
             type: "official",
-            link: "http://web.archive.org/web/20210219113754/https://covid19asi.saglik.gov.tr/TR-77707/asi-uygulanacak-grup-siralamasi.html",
             label: "Aşı grubu öncelik sıralaması",
-            original_link: "https://covid19asi.saglik.gov.tr/TR-77707/asi-uygulanacak-grup-siralamasi.html"
+            link: "https://covid19asi.saglik.gov.tr/TR-77707/asi-uygulanacak-grup-siralamasi.html"
         }
     ],
     "b":[
         {
             type: "science-article",
-            link: "http://web.archive.org/web/20201227070110/https://dergipark.org.tr/en/download/article-file/833900",
             label: "AŞI KARŞITLIĞI: AŞI KARARSIZLIĞI VE AŞI REDDİ",
-            original_link: "https://dergipark.org.tr/en/download/article-file/833900"
+            link: "https://dergipark.org.tr/en/download/article-file/833900"
         },
         {
             type: "news",
-            link: "http://web.archive.org/web/20210102112839/https://www.sozcu.com.tr/2020/saglik/asi-gonullusu-profesor-asiyla-ilgili-sosyal-medyada-yazilanlara-inanamiyorum-6181051/",
             label: "Aşı gönüllüsü Profesör Ünal: Sosyal medyada yazılanlara inanamıyorum",
-            original_link: "https://www.sozcu.com.tr/2020/saglik/asi-gonullusu-profesor-asiyla-ilgili-sosyal-medyada-yazilanlara-inanamiyorum-6181051/"
+            link: "https://www.sozcu.com.tr/2020/saglik/asi-gonullusu-profesor-asiyla-ilgili-sosyal-medyada-yazilanlara-inanamiyorum-6181051/"
         },
         {
             type: "science-article",
-            link: "http://web.archive.org/web/20190429232336/https://www.journalagent.com/cocuk/pdfs/CD_16_1_16_24.pdf",
             label: "Aşı Kabulünü Etkileyen Faktörler",
-            original_link: "https://www.journalagent.com/cocuk/pdfs/CD_16_1_16_24.pdf"
+            link: "https://www.journalagent.com/cocuk/pdfs/CD_16_1_16_24.pdf"
         },
         {
             type: "official",
-            link: "http://web.archive.org/web/20201202113920/https://asi.saglik.gov.tr/asi-gercekleri",
             label: "Aşı hakkında yanlış bilinen gerçekler.",
-            original_link: "https://asi.saglik.gov.tr/asi-gercekleri"
+            link: "https://asi.saglik.gov.tr/asi-gercekleri"
         },
         {
             type: "popular-science-news",
-            original_link: "https://sarkac.org/2018/10/neden-asi-olmaliyiz/",
+            link: "https://sarkac.org/2018/10/neden-asi-olmaliyiz/",
             label: "Neden aşı olmalıyız?",
-            link: "http://web.archive.org/web/20200721103556/https://sarkac.org/2018/10/neden-asi-olmaliyiz/"
         },
         {
             type: "video",
-            original_link: "https://www.youtube.com/watch?v=hrmj49jv3Hw&ab_channel=GaziTv",
+            link: "https://www.youtube.com/watch?v=hrmj49jv3Hw&ab_channel=GaziTv",
             label: "Aşı Karşıtlığı Videosu",
-            link: "https://www.youtube.com/watch?v=hrmj49jv3Hw&ab_channel=GaziTv"
         },
         {
             type: "video",
             link: "https://www.youtube.com/watch?v=Q9EBxxhn3IU&ab_channel=GZT",
-            original_link: "https://www.youtube.com/watch?v=Q9EBxxhn3IU&ab_channel=GZT",
             label: "Tarihte ilk aşı karşıklığı nasıl başladı?"
         },
         {
             type: "documentary",
             link: "https://www.youtube.com/watch?v=Al5OE6mN7z4&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
-            original_link: "https://www.youtube.com/watch?v=Al5OE6mN7z4&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
             label: "Aşı Belgeseli 1. Bölüm"
         },
         {
             type: "documentary",
             link: "https://www.youtube.com/watch?v=vNVcpCvF9-4&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
-            original_link: "https://www.youtube.com/watch?v=vNVcpCvF9-4&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
             label: "Aşı Belgeseli 2. Bölüm"
         },
         {
             type: "documentary",
             link: "https://www.youtube.com/watch?v=EQCGMyss4w8&t=0s&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
-            original_link: "https://www.youtube.com/watch?v=EQCGMyss4w8&t=0s&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
             label: "Aşı Belgeseli 3. Bölüm"
         }
     ],
     "c":[
         {
             type: "official",
-            original_link: "https://asi.saglik.gov.tr/asi-gercekleri",
+            link: "https://asi.saglik.gov.tr/asi-gercekleri",
             label: "Aşı hakkında yanlış bilinen gerçekler.",
-            link: 'http://web.archive.org/web/20201202113920/https://asi.saglik.gov.tr/asi-gercekleri'
         },
         {
             type: "documentary",
             link: "https://www.youtube.com/watch?v=Al5OE6mN7z4&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
-            original_link: "https://www.youtube.com/watch?v=Al5OE6mN7z4&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
             label: "Aşı Belgeseli 1. Bölüm"
         },
         {
             type: "documentary",
             link: "https://www.youtube.com/watch?v=vNVcpCvF9-4&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
-            original_link: "https://www.youtube.com/watch?v=vNVcpCvF9-4&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
             label: "Aşı Belgeseli 2. Bölüm"
         },
         {
             type: "documentary",
             link: "https://www.youtube.com/watch?v=EQCGMyss4w8&t=0s&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
-            original_link: "https://www.youtube.com/watch?v=EQCGMyss4w8&t=0s&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
             label: "Aşı Belgeseli 3. Bölüm"
         },
         {
             type: "official",
-            original_link: "https://covid19asi.saglik.gov.tr/TR-77715/covid-19-asisi-sonrasi-yan-etkiler.html",
-            link: "http://web.archive.org/web/20210203084757/https://covid19asi.saglik.gov.tr/TR-77715/covid-19-asisi-sonrasi-yan-etkiler.html",
+            link: "https://covid19asi.saglik.gov.tr/TR-77715/covid-19-asisi-sonrasi-yan-etkiler.html",
             label: "Covid-19 aşısı sonrası yan etkiler"
         },
         {
             type: "news",
-            original_link: "https://www.bbc.com/turkce/haberler-dunya-55254195",
+            link: "https://www.bbc.com/turkce/haberler-dunya-55254195",
             label: "Covid için geliştirilen aşılar ne kadar güvenli?",
-            link: "http://web.archive.org/web/20210115173402/https://www.bbc.com/turkce/haberler-dunya-55254195"
         }
     ],
     "d":[
         {
             type: "news",
-            link: "http://web.archive.org/web/20210115173402/https://www.bbc.com/turkce/haberler-dunya-55254195",
-            original_link: "https://www.bbc.com/turkce/haberler-dunya-55254195",
+            link: "https://www.bbc.com/turkce/haberler-dunya-55254195",
             label: "Covid için geliştirilen aşılar ne kadar güvenli?"
         }
     ],
     "e":[
         {
             type: "official",
-            original_link: "https://asi.saglik.gov.tr/asi-gercekleri",
-            label: "Aşı hakkında yanlış bilinen gerçekler.",
-            link: "http://web.archive.org/web/20201202113920/https://asi.saglik.gov.tr/asi-gercekleri",
+            link: "https://asi.saglik.gov.tr/asi-gercekleri",
+            label: "Aşı hakkında yanlış bilinen gerçekler."
         },
                 {
             type: "documentary",
             link: "https://www.youtube.com/watch?v=EQCGMyss4w8&t=0s&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
-            original_link: "https://www.youtube.com/watch?v=EQCGMyss4w8&t=0s&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
             label: "Aşı Belgeseli 3. Bölüm"
         },
         {
             type: "video",
             link: "https://www.youtube.com/watch?v=EJJ1QicWQhk&ab_channel=NP%C4%B0STANBULBeyinHastanesi",
-            original_link: "https://www.youtube.com/watch?v=EJJ1QicWQhk&ab_channel=NP%C4%B0STANBULBeyinHastanesi",
             label: "Covid-19 aşısı hakkında bilgiler"
         }
     ]
