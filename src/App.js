@@ -302,6 +302,7 @@ const questionHandler = (setQuestions,setTitle)=>{
                 setTitle(question.label?question.label:question.choice);
                 setQuestions(Object.values(question.child));
             }
+            window.location = "#root";
         }
     }
 }
@@ -318,6 +319,7 @@ const linksHandler = (setQuestions,setLinks,setTitle)=>{
             setTitle(question.label?question.label:question.choice);
             setQuestions([]); 
             setLinks(concatinatedLinks);
+            window.location = "#root";
         }
     }
 }
