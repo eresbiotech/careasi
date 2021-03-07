@@ -3,6 +3,7 @@ import banner1 from './images/banner/banner-1.jpg';
 import jQuery from 'jquery';
 import {useState,useEffect} from 'react';
 import ReactGA from 'react-ga';
+import CookieConsent from "react-cookie-consent";
 let trackingID = "UA-116566614-6";
 let createUUID = () =>{
     // http://www.ietf.org/rfc/rfc4122.txt
@@ -540,6 +541,7 @@ function App() {
         <div>
             <Header setPage={setPage} page={page}/>
             {page}
+            <CookieConsent debug={true} style={{ background: "#372c7a" }} buttonText="Anladım" buttonStyle={{marginRight: "20px"}}>Bu web sayfası yalnızca <a href="https://policies.google.com/technologies/partner-sites" target="_blank">Google Analytics</a>'in ihtiyaç duyduğu çerezleri kullanılır.</CookieConsent>
         </div>
     );
 }
