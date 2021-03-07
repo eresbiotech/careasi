@@ -325,6 +325,10 @@ const linksHandler = (setQuestions,setLinks,setTitle)=>{
     }
 }
 function Header({page,setPage}) {
+    let [menuClasses,setMenuClasses] = useState("");
+    useEffect(()=>{
+        setMenuClasses("menu");
+    },[]);
     return <header className="header-section">
         <div className="container">
             <div className="header-wrapper">
@@ -335,15 +339,27 @@ function Header({page,setPage}) {
                         </a>
                     </div>
                 </div>
-                <ul className="menu">
+                <ul className={menuClasses}>
                     <li>
                         <a href="/">Anasayfa</a>
                     </li>
                     <li>
-                        <a onClick={()=>{setPage(<AboutUs/>);}} href="#">Hakkımızda</a>
+                        <a onClick={()=>{
+                        setPage(<AboutUs/>);
+                        setMenuClasses(classes=>"menu");
+                        document.querySelector(".overlay").classList.remove("active");
+                        }} href="#">Hakkımızda</a>
                     </li>
                 </ul>
-                <div className="header-bar d-lg-none">
+                <div className="header-bar d-lg-none" onClick={()=>{
+                    if(document.querySelector(".overlay").classList.contains("active")) {
+                        setMenuClasses(classes=>"menu");
+                        document.querySelector(".overlay").classList.remove("active");
+                    }else{
+                        setMenuClasses(classes=>"menu active");
+                        document.querySelector(".overlay").classList.add("active");
+                    }
+                    }}>
                     <span></span>
                     <span></span>
                     <span></span>
