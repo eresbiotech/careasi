@@ -158,7 +158,7 @@ function Header({page,setPage}) {
             <div className="header-wrapper">
                 <div className="logo-area">
                     <div className="logo">
-                        <a href="index.html">
+                        <a href="/">
                             <img src="/assets/images/default-monochrome-white.svg" alt="logo"/>
                         </a>
                     </div>
