@@ -1,0 +1,146 @@
+{
+    "a":[
+        {
+            "type": "official",
+            "label": "Aşı grubu öncelik sıralaması",
+            "link": "https://covid19asi.saglik.gov.tr/TR-77707/asi-uygulanacak-grup-siralamasi.html"
+        }
+    ],
+    "b":[
+        {
+            "type": "science-article",
+            "label": "AŞI KARŞITLIĞI: AŞI KARARSIZLIĞI VE AŞI REDDİ",
+            "link": "https://dergipark.org.tr/en/download/article-file/833900"
+        },
+        {
+            "type": "news",
+            "label": "Aşı gönüllüsü Profesör Ünal: Sosyal medyada yazılanlara inanamıyorum",
+            "link": "https://www.sozcu.com.tr/2020/saglik/asi-gonullusu-profesor-asiyla-ilgili-sosyal-medyada-yazilanlara-inanamiyorum-6181051/"
+        },
+        {
+            "type": "science-article",
+            "label": "Aşı Kabulünü Etkileyen Faktörler",
+            "link": "https://www.journalagent.com/cocuk/pdfs/CD_16_1_16_24.pdf"
+        },
+        {
+            "type": "official",
+            "label": "Aşı hakkında yanlış bilinen gerçekler.",
+            "link": "https://asi.saglik.gov.tr/asi-gercekleri"
+        },
+        {
+            "type": "popular-science-news",
+            "link": "https://sarkac.org/2018/10/neden-asi-olmaliyiz/",
+            "label": "Neden aşı olmalıyız?"
+        },
+        {
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=hrmj49jv3Hw&ab_channel=GaziTv",
+            "label": "Aşı Karşıtlığı Videosu"
+        },
+        {
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=Q9EBxxhn3IU&ab_channel=GZT",
+            "label": "Tarihte ilk aşı karşıtlığı nasıl başladı?"
+        },
+        {
+            "type": "documentary",
+            "link": "https://www.youtube.com/watch?v=Al5OE6mN7z4&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
+            "label": "Aşı Belgeseli 1. Bölüm"
+        },
+        {
+            "type": "documentary",
+            "link": "https://www.youtube.com/watch?v=vNVcpCvF9-4&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
+            "label": "Aşı Belgeseli 2. Bölüm"
+        },
+        {
+            "type": "documentary",
+            "link": "https://www.youtube.com/watch?v=EQCGMyss4w8&t=0s&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
+            "label": "Aşı Belgeseli 3. Bölüm"
+        }
+    ],
+    "c":[
+        {
+            "type": "official",
+            "link": "https://asi.saglik.gov.tr/asi-gercekleri",
+            "label": "Aşı hakkında yanlış bilinen gerçekler."
+        },
+        {
+            "type": "documentary",
+            "link": "https://www.youtube.com/watch?v=Al5OE6mN7z4&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
+            "label": "Aşı Belgeseli 1. Bölüm"
+        },
+        {
+            "type": "documentary",
+            "link": "https://www.youtube.com/watch?v=vNVcpCvF9-4&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
+            "label": "Aşı Belgeseli 2. Bölüm"
+        },
+        {
+            "type": "documentary",
+            "link": "https://www.youtube.com/watch?v=EQCGMyss4w8&t=0s&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
+            "label": "Aşı Belgeseli 3. Bölüm"
+        },
+        {
+            "type": "official",
+            "link": "https://covid19asi.saglik.gov.tr/TR-77715/covid-19-asisi-sonrasi-yan-etkiler.html",
+            "label": "Covid-19 aşısı sonrası yan etkiler"
+        },
+        {
+            "type": "news",
+            "link": "https://www.bbc.com/turkce/haberler-dunya-55254195",
+            "label": "Covid için geliştirilen aşılar ne kadar güvenli?"
+        },
+        {
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=WC__4PX7-4w&t=3879s",
+            "label": "Covid-19 aşısının olası yan etkileri nelerdir?"
+        }
+    ],
+    "d":[
+        {
+            "type": "news",
+            "link": "https://www.bbc.com/turkce/haberler-dunya-55254195",
+            "label": "Covid için geliştirilen aşılar ne kadar güvenli?"
+        },
+        {
+            "type": "video",
+            "link": "https://youtu.be/7aCkz0rITL0",
+            "label": "COVID-19 hakkında soru&cevap"
+        }
+    ],
+    "e":[
+        {
+            "type": "official",
+            "link": "https://asi.saglik.gov.tr/asi-gercekleri",
+            "label": "Aşı hakkında yanlış bilinen gerçekler."
+        },
+                {
+            "type": "documentary",
+            "link": "https://www.youtube.com/watch?v=EQCGMyss4w8&t=0s&ab_channel=BBCNewsT%C3%BCrk%C3%A7e",
+            "label": "Aşı Belgeseli 3. Bölüm"
+        },
+        {
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=EJJ1QicWQhk&ab_channel=NP%C4%B0STANBULBeyinHastanesi",
+            "label": "Covid-19 aşısı hakkında bilgiler"
+        }
+    ],
+    "f":[
+        {
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=WC__4PX7-4w&t=1998s",
+            "label": "Faz çalışmaları ve Aşıların acil kullanım onay süreçleri"
+        }
+    ],
+    "g":[
+        {
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=WC__4PX7-4w&t=4500s",
+            "label": "mRNA aşısı vucütta zarara sebep oluyor mu?"
+        },
+        {
+            "type": "article",
+            "link": "https://www.bezelyedergi.net/post/covid-19-a%C5%9F%C4%B1lar%C4%B1-hakk%C4%B1nda-her-%C5%9Fey-mutasyonlar-mrna-a%C5%9F%C4%B1lar%C4%B1n%C4%B1n-i%CC%87nsan-genomuna-etkisi-ve-son-%C3%A7al%C4%B1%C5%9Fma",
+            "label": "Mutasyonlar, mRNA Aşılarının İnsan Genomuna Etkisi ve Son Çalışma"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+[
+    {
+        "choice": "Aşıların otizm yaptığını düşünüyorum.",
+        "label": "",
+        "categories": ["c"]
+    },
+    {
+        "choice": "Aşıdaki mRNA'nın vücutta başka problemlere sebep olacağını düşünüyorum.",
+        "categories": ["g"]
+    },
+    {
+        "choice": "Aşı içinde çip olduğunu düşünüyorum.",
+        "label": "",
+        "categories": ["d"]
+    },
+    {
+        "choice": "Aşının yeterli Faz 3 çalışması yok.",
+        "label": "",
+        "categories": ["e","f"]
+    },
+    {
+        "choice": "İtalyan doktor bu aşının faydasız olduğunu söyledi.",
+        "categories": ["e"]
+    },
+    {
+        "choice": "Aşının otoimmun hastalıklara sebep olduğunu düşünüyorum.",
+        "categories": ["c"]
+    },
+    {
+        "choice": "Aşıda civa kullanıldığını düşünüyorum.",
+        "categories": ["c"]
+    },
+    {
+        "choice": "Aşıların içinde alüminyum bileşikleri olduğunu düşünüyorum.",
+        "categories": ["c"]
+    },
+    {
+        "choice": "Aşılarda domuz jelatini olduğunu düşünüyorum.",
+        "categories": ["c"]
+    },
+    {
+        "choice": "Aşıda formaldehitin olduğunu düşünüyorum.",
+        "categories": ["c"]
+    },
+    {
+        "choice": "Aşıların kısırlık yaptığını düşünüyorum.",
+        "categories": ["c"]
+    },
+    {
+        "choice": "Aşıların ilaç firmalarının yalanı olduğunu düşünüyorum.",
+        "categories": ["c"]
+    }
+]
