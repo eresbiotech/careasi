@@ -381,7 +381,7 @@ function App() {
         <div>
             <Header setPage={setPage} page={page}/>
             {page}
-            <CookieConsent  style={{ background: "#372c7a" }} buttonText="Anladım" buttonStyle={{marginRight: "20px"}}>Bu web sayfası yalnızca <a href="https://policies.google.com/technologies/partner-sites" target="_blank">Google Analytics</a>'in ihtiyaç duyduğu çerezleri kullanılır.</CookieConsent>
+            <CookieConsent  style={{ background: "#372c7a" }} buttonText="Anladım" buttonStyle={{marginRight: "20px"}}>Bu web sayfası yalnızca <a href="https://policies.google.com/technologies/partner-sites" target="_blank">Google Analytics</a>'in ihtiyaç duyduğu çerezleri kullanır.</CookieConsent>
         </div>
     );
 }
