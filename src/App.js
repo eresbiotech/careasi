@@ -350,6 +350,11 @@ function LinksSection({links}) {
                     </div>
                 </div>); }
             )}
+            <div classname="row justify-content-center">
+                <div className="col-12" style={{textAlign:"center"}}>
+                    <a href="/" className="custom-button">Başa Dön</a>
+                </div>
+            </div>
         </div>
     </div>
 }
